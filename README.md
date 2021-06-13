@@ -1,11 +1,10 @@
 # Rafael Carlos Silverio
 ## DESENVOLVEDOR / ANALISTA DE DADOS / CIENTISTA DE DADOS
 ### Contato
-```sh
-[Linkedin](https://www.linkedin.com/in/rafael-carlos-developer/)
 
-[Email](mailto:rafacarlossilver@yahoo.com.br)
-```
+> [Linkedin](https://www.linkedin.com/in/rafael-carlos-developer/)
+
+> [Email](mailto:rafacarlossilver@yahoo.com.br)
 
 
 
@@ -22,37 +21,26 @@
 
 ## Educação
 Pontifícia Universidade Católica do Rio Grande do Sul
-MBA em Tecnologia para Negócios: AI, Data Science e Big Data
+
+***MBA em Tecnologia para Negócios: AI, Data Science e Big Data***
 
 Universidade Estácio, São Paulo (SP), Brasil
-Graduação em Análise de sistemas
+
+***Graduação em Análise de sistemas***
+
+
+## Cursos e Certificações
+
+*  Big Data Processamento de dados com Spark;
+*  Docker do Zero à Maestria – Contêinerização Desmistificada;
+*  Curso Python 3 Avançado;
+*  Curso Business Intelligence: Visualização com Power BI
+*  Machine Learning: Introdução a Classificação;
+*  Machine Learning II: Diferentes tipos de Classificação;
+*  Design Patter com PHP;
+*  Business Intelligence com Power BI;
+*  Visualização com PowerBI;
+*  Machine Learning.
 
 
 
-
-
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/rafacarlossilver/rafacarlossilver.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
