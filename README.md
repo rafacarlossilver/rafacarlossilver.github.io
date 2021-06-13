@@ -2,6 +2,7 @@
 
 Desenvolvedor proativo e responsável. Conhecido por possuir conhecimentos técnicos fortes e fornecer sistemas sólidos. Mais de 10 anos de experiência no desenvolvimento de sistemas de sucesso.
 
+```markdown
 ### DESTAQUES SELECIONADOS
 
 *  Desenvolvimento de um sistema Web que aumentou as vendas em 70%;
@@ -10,8 +11,7 @@ Desenvolvedor proativo e responsável. Conhecido por possuir conhecimentos técn
 *  Desenvolvimento e curadoria de ETL com Pentaho 8;
 *  Implementação do sistema PowerBI; 
 *  Atendimento aos clientes e às principais partes interessadas para projetar processos e reunir requisitos.
-
-```markdown
+```
 Syntax highlighted code block
 
 # Header 1
@@ -27,7 +27,7 @@ Syntax highlighted code block
 **Bold** and _Italic_ and `Code` text
 
 [Link](url) and ![Image](src)
-```
+
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
