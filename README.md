@@ -21,11 +21,9 @@
 
 ## Educação
 Pontifícia Universidade Católica do Rio Grande do Sul
-
 ***MBA em Tecnologia para Negócios: AI, Data Science e Big Data***
 
 Universidade Estácio, São Paulo (SP), Brasil
-
 ***Graduação em Análise de sistemas***
 
 
