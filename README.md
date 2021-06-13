@@ -12,6 +12,8 @@
 
 ## Destaques selecionados
 
+*  Desenvolvimento de software para sistemas web em Python, PHP e Java;
+*  Desenvolvimento de Layouts com Bootstrap e Angular;
 *  Desenvolvimento de um sistema Web que aumentou as vendas em 70%;
 *  Melhora com sucesso o fluxo de trabalho da equipe, economizando mais de R$ 10.000 nas operações;
 *  Análise e integração do sistema Sugar CRM com ERP interno; 
