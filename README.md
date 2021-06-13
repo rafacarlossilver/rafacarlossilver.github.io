@@ -2,9 +2,14 @@
 
 Desenvolvedor proativo e responsável. Conhecido por possuir conhecimentos técnicos fortes e fornecer sistemas sólidos. Mais de 10 anos de experiência no desenvolvimento de sistemas de sucesso.
 
-### Markdown
+### DESTAQUES SELECIONADOS
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+*  Desenvolvimento de um sistema Web que aumentou as vendas em 70%;
+*  Melhora com sucesso o fluxo de trabalho da equipe, economizando mais de R$ 10.000 nas operações;
+*  Análise e integração do sistema Sugar CRM com ERP interno; 
+*  Desenvolvimento e curadoria de ETL com Pentaho 8;
+*  Implementação do sistema PowerBI; 
+*  Atendimento aos clientes e às principais partes interessadas para projetar processos e reunir requisitos.
 
 ```markdown
 Syntax highlighted code block
