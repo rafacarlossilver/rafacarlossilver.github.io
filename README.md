@@ -1,6 +1,6 @@
 # Rafael Carlos Silverio
 ## DESENVOLVEDOR / ANALISTA DE DADOS / CIENTISTA DE DADOS
-Linkedln <https://www.linkedin.com/in/rafael-carlos-developer/>
+[Linkedln] (https://www.linkedin.com/in/rafael-carlos-developer/)
 
 > Desenvolvedor proativo e responsável. Conhecido por possuir conhecimentos técnicos fortes e fornecer sistemas sólidos. Mais de 10 anos de experiência no desenvolvimento de sistemas de sucesso.
 
@@ -13,7 +13,17 @@ Linkedln <https://www.linkedin.com/in/rafael-carlos-developer/>
 *  Implementação do sistema PowerBI; 
 *  Atendimento aos clientes e às principais partes interessadas para projetar processos e reunir requisitos.
 
-Syntax highlighted code block
+## Educação
+Pontifícia Universidade Católica do Rio Grande do Sul
+MBA em Tecnologia para Negócios: AI, Data Science e Big Data
+
+Universidade Estácio, São Paulo (SP), Brasil
+Graduação em Análise de sistemas
+
+
+
+
+
 
 # Header 1
 ## Header 2
