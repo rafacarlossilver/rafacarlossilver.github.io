@@ -1,8 +1,7 @@
 # Rafael Carlos Silverio
 ## DESENVOLVEDOR / ANALISTA DE DADOS / CIENTISTA DE DADOS
-
-```sh
 ### Contato
+```sh
 [Linkedin](https://www.linkedin.com/in/rafael-carlos-developer/)
 
 [Email](mailto:rafacarlossilver@yahoo.com.br)
