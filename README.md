@@ -1,6 +1,6 @@
 # Rafael Carlos Silverio
 
-Desenvolvedor proativo e responsável. Conhecido por possuir conhecimentos técnicos fortes e fornecer sistemas sólidos. Mais de 10 anos de experiência no desenvolvimento de sistemas de sucesso.
+> Desenvolvedor proativo e responsável. Conhecido por possuir conhecimentos técnicos fortes e fornecer sistemas sólidos. Mais de 10 anos de experiência no desenvolvimento de sistemas de sucesso.
 
 ## DESTAQUES SELECIONADOS
 
