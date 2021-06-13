@@ -21,6 +21,18 @@
 *  Implementação do sistema PowerBI; 
 *  Atendimento aos clientes e às principais partes interessadas para projetar processos e reunir requisitos.
 
+### Competências chave
+* Engenharia de Software;
+* Desenvolvimento de API;
+*  Habilidades de comunicação;
+* Código aberto;
+*  Especialização Técnica;
+*  Desenvolvimento Front-end;
+*  Metodologia Ágil;
+*  Desenvolvimento Back-end;
+*  ETL.
+
+
 ## Educação
 Pontifícia Universidade Católica do Rio Grande do Sul
 
