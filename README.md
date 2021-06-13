@@ -2,7 +2,7 @@
 
 > Desenvolvedor proativo e responsável. Conhecido por possuir conhecimentos técnicos fortes e fornecer sistemas sólidos. Mais de 10 anos de experiência no desenvolvimento de sistemas de sucesso.
 
-## DESTAQUES SELECIONADOS
+## Destaques selecionados
 
 *  Desenvolvimento de um sistema Web que aumentou as vendas em 70%;
 *  Melhora com sucesso o fluxo de trabalho da equipe, economizando mais de R$ 10.000 nas operações;
