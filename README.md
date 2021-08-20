@@ -1,5 +1,5 @@
 # Rafael Carlos Silverio
-## DESENVOLVEDOR / ANALISTA DE DADOS / CIENTISTA DE DADOS
+## DESENVOLVEDOR / ENGENHEIRO DE DADOS / CIENTISTA DE DADOS
 ### Contato
 
 > [Linkedin](https://www.linkedin.com/in/rafael-carlos-developer/)
