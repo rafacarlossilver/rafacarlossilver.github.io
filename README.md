@@ -1,60 +1,168 @@
-# Rafael Carlos Silverio
-## DESENVOLVEDOR / ARQUITETO DE DADOS / CIENTISTA DE DADOS
-### Contato
+# 👨‍💻 Rafael Carlos Silverio - Portfólio Profissional
 
-> [Linkedin](https://www.linkedin.com/in/rafael-carlos-developer/)
+> Desenvolvedor | Arquiteto de Dados | Cientista de Dados
 
-> [Email](mailto:rafacarlossilver@yahoo.com.br)
+Portfólio moderno e responsivo construído com **Next.js**, **React**, **TypeScript** e **Tailwind CSS**.
 
+## 🌍 Live Demo
 
+[https://rafacarlossilver.github.io](https://rafacarlossilver.github.io)
 
-> Desenvolvedor proativo e responsável. Conhecido por possuir conhecimentos técnicos fortes e fornecer sistemas sólidos. Mais de 10 anos de experiência no desenvolvimento de sistemas de sucesso.
+## 🚀 Tecnologias Usadas
 
-## Destaques selecionados
+- **Framework**: Next.js 16+ com App Router
+- **Linguagem**: TypeScript
+- **Styling**: Tailwind CSS
+- **Deployment**: GitHub Pages
+- **CI/CD**: GitHub Actions
 
-*  Desenvolvimento de software para sistemas web em Python, PHP e Java;
-*  Desenvolvimento de Layouts com Bootstrap e Angular;
-*  Desenvolvimento de um sistema Web que aumentou as vendas em 70%;
-*  Melhora com sucesso o fluxo de trabalho da equipe, economizando mais de R$ 10.000 nas operações;
-*  Análise e integração do sistema Sugar CRM com ERP interno; 
-*  Desenvolvimento e curadoria de ETL com Pentaho 8;
-*  Implementação do sistema PowerBI; 
-*  Atendimento aos clientes e às principais partes interessadas para projetar processos e reunir requisitos.
+## 📋 Seções do Portfólio
 
-### Competências chave
-* Engenharia de Software;
-* Desenvolvimento de API;
-*  Habilidades de comunicação;
-* Código aberto;
-*  Especialização Técnica;
-*  Desenvolvimento Front-end;
-*  Metodologia Ágil;
-*  Desenvolvimento Back-end;
-*  ETL.
+- ✨ **Hero Section**: Apresentação profissional com CTA
+- 📌 **Destaques**: Principais conquistas e skills
+- 💼 **Experiência Profissional**: Timeline com descrições e impacto
+- 🎓 **Educação**: Formação acadêmica
+- 🛠️ **Skills Técnicas**: Categorias com níveis de proficiência
+- 🏆 **Certificações**: Cursos e certificações relevantes
+- 📞 **Contato**: Seção com CTA e links sociais
 
+## 💻 Instalação Local
 
-## Educação
-Pontifícia Universidade Católica do Rio Grande do Sul
+### Pré-requisitos
 
-***MBA em Tecnologia para Negócios: AI, Data Science e Big Data***
+- Node.js 18+ e npm
 
-Universidade Estácio, São Paulo (SP), Brasil
+### Passos
 
-***Graduação em Análise de sistemas***
+1. **Clone o repositório**
+   ```bash
+   git clone https://github.com/rafacarlossilver/rafacarlossilver.github.io.git
+   cd rafacarlossilver.github.io
+   ```
 
+2. **Instale as dependências**
+   ```bash
+   npm install
+   ```
 
-## Cursos e Certificações
+3. **Execute o servidor de desenvolvimento**
+   ```bash
+   npm run dev
+   ```
 
-*  Big Data Processamento de dados com Spark;
-*  Docker do Zero à Maestria – Contêinerização Desmistificada;
-*  Curso Python 3 Avançado;
-*  Curso Business Intelligence: Visualização com Power BI
-*  Machine Learning: Introdução a Classificação;
-*  Machine Learning II: Diferentes tipos de Classificação;
-*  Design Patter com PHP;
-*  Business Intelligence com Power BI;
-*  Visualização com PowerBI;
-*  Machine Learning.
+4. **Abra no navegador**
+   ```
+   http://localhost:3000
+   ```
 
+## 🏗️ Estrutura do Projeto
 
+```
+src/
+├── app/
+│   ├── layout.tsx          # Layout global
+│   ├── page.tsx            # Página inicial
+│   └── globals.css         # Estilos globais
+├── components/
+│   ├── Header.tsx          # Navbar/Header
+│   ├── Footer.tsx          # Footer
+│   ├── ExperienceTimeline.tsx    # Timeline de experiência
+│   ├── SkillsGrid.tsx      # Grid de skills
+│   └── ContactSection.tsx  # Seção de contato
+└── data/
+    └── profile.ts          # Dados estruturados (experiência, skills, etc)
+```
 
+## 📝 Como Editar o Conteúdo
+
+Todo o conteúdo está centralizado em `src/data/profile.ts`. Para atualizar:
+
+1. **Experiência profissional**: Edite o array `experience`
+2. **Skills**: Atualize o objeto `skills` com categorias e níveis
+3. **Educação**: Modifique o array `education`
+4. **Certificações**: Atualize o array `certifications`
+5. **Informações pessoais**: Edite `name`, `email`, `linkedin`, etc.
+
+## 🚢 Deployment
+
+### Automático (Recomendado)
+
+O projeto usa **GitHub Actions** para deploy automático:
+
+1. Faça push para a branch `main`
+2. GitHub Actions automaticamente:
+   - Instala dependências
+   - Compila o projeto
+   - Faz deploy para GitHub Pages
+
+### Manual
+
+Para fazer build local:
+
+```bash
+npm run build
+```
+
+Os arquivos estáticos serão gerados em `./out/`. Você pode servir dessa pasta com qualquer host.
+
+## 🔧 Build e Format
+
+```bash
+# Development server
+npm run dev
+
+# Build para produção
+npm run build
+
+# Lint com ESLint
+npm run lint
+
+# Preview do build
+npm start
+```
+
+## 📱 Responsividade
+
+O portfólio é totalmente responsivo e otimizado para:
+- 📱 Mobile (375px+)
+- 📱 Tablet (768px+)
+- 🖥️ Desktop (1920px+)
+
+## 🎨 Customização
+
+### Cores
+
+As cores estão definidas no `tailwind.config.ts` e usam a paleta de cores padrão do Tailwind. Para customizar:
+
+1. Edite `tailwind.config.ts`
+2. Atualize as referências de cores nos componentes
+
+### Fonts
+
+As fonts padrão são `Geist` e `Geist Mono` (configuradas em `src/app/layout.tsx`). Para mudar:
+
+1. Importe uma nova font do Google Fonts
+2. Atualize a variável CSS no layout
+
+## 🚀 Performance
+
+- ✅ Next.js com App Router otimizado
+- ✅ CSS-in-JS com Tailwind (sem JavaScript desnecessário)
+- ✅ Imagens otimizadas
+- ✅ Sem dependências externas pesadas
+
+## 📜 Licença
+
+MIT
+
+## 👤 Autor
+
+**Rafael Carlos Silverio**
+
+- Email: [rafacarlossilver@yahoo.com.br](mailto:rafacarlossilver@yahoo.com.br)
+- LinkedIn: [@rafael-carlos-developer](https://www.linkedin.com/in/rafael-carlos-developer/)
+- GitHub: [@rafacarlossilver](https://github.com/rafacarlossilver)
+
+---
+
+**Desenvolvido com ❤️ usando Next.js, React e Tailwind CSS**
