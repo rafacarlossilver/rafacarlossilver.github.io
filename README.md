@@ -1,8 +1,3 @@
-Aqui está o seu currículo convertido para **Markdown (.md)**, mantendo a estrutura, hierarquia e conteúdo do documento original.  
-Use como quiser no GitHub, portfólio ou documentação.
-
----
-
 # **Rafael Carlos Silverio**
 
 **Arquiteto de Soluções Senior**  
