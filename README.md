@@ -1,168 +1,155 @@
-# 👨‍💻 Rafael Carlos Silverio - Portfólio Profissional
-
-> Desenvolvedor | Arquiteto de Dados | Cientista de Dados
-
-Portfólio moderno e responsivo construído com **Next.js**, **React**, **TypeScript** e **Tailwind CSS**.
-
-## 🌍 Live Demo
-
-[https://rafacarlossilver.github.io](https://rafacarlossilver.github.io)
-
-## 🚀 Tecnologias Usadas
-
-- **Framework**: Next.js 16+ com App Router
-- **Linguagem**: TypeScript
-- **Styling**: Tailwind CSS
-- **Deployment**: GitHub Pages
-- **CI/CD**: GitHub Actions
-
-## 📋 Seções do Portfólio
-
-- ✨ **Hero Section**: Apresentação profissional com CTA
-- 📌 **Destaques**: Principais conquistas e skills
-- 💼 **Experiência Profissional**: Timeline com descrições e impacto
-- 🎓 **Educação**: Formação acadêmica
-- 🛠️ **Skills Técnicas**: Categorias com níveis de proficiência
-- 🏆 **Certificações**: Cursos e certificações relevantes
-- 📞 **Contato**: Seção com CTA e links sociais
-
-## 💻 Instalação Local
-
-### Pré-requisitos
-
-- Node.js 18+ e npm
-
-### Passos
-
-1. **Clone o repositório**
-   ```bash
-   git clone https://github.com/rafacarlossilver/rafacarlossilver.github.io.git
-   cd rafacarlossilver.github.io
-   ```
-
-2. **Instale as dependências**
-   ```bash
-   npm install
-   ```
-
-3. **Execute o servidor de desenvolvimento**
-   ```bash
-   npm run dev
-   ```
-
-4. **Abra no navegador**
-   ```
-   http://localhost:3000
-   ```
-
-## 🏗️ Estrutura do Projeto
-
-```
-src/
-├── app/
-│   ├── layout.tsx          # Layout global
-│   ├── page.tsx            # Página inicial
-│   └── globals.css         # Estilos globais
-├── components/
-│   ├── Header.tsx          # Navbar/Header
-│   ├── Footer.tsx          # Footer
-│   ├── ExperienceTimeline.tsx    # Timeline de experiência
-│   ├── SkillsGrid.tsx      # Grid de skills
-│   └── ContactSection.tsx  # Seção de contato
-└── data/
-    └── profile.ts          # Dados estruturados (experiência, skills, etc)
-```
-
-## 📝 Como Editar o Conteúdo
-
-Todo o conteúdo está centralizado em `src/data/profile.ts`. Para atualizar:
-
-1. **Experiência profissional**: Edite o array `experience`
-2. **Skills**: Atualize o objeto `skills` com categorias e níveis
-3. **Educação**: Modifique o array `education`
-4. **Certificações**: Atualize o array `certifications`
-5. **Informações pessoais**: Edite `name`, `email`, `linkedin`, etc.
-
-## 🚢 Deployment
-
-### Automático (Recomendado)
-
-O projeto usa **GitHub Actions** para deploy automático:
-
-1. Faça push para a branch `main`
-2. GitHub Actions automaticamente:
-   - Instala dependências
-   - Compila o projeto
-   - Faz deploy para GitHub Pages
-
-### Manual
-
-Para fazer build local:
-
-```bash
-npm run build
-```
-
-Os arquivos estáticos serão gerados em `./out/`. Você pode servir dessa pasta com qualquer host.
-
-## 🔧 Build e Format
-
-```bash
-# Development server
-npm run dev
-
-# Build para produção
-npm run build
-
-# Lint com ESLint
-npm run lint
-
-# Preview do build
-npm start
-```
-
-## 📱 Responsividade
-
-O portfólio é totalmente responsivo e otimizado para:
-- 📱 Mobile (375px+)
-- 📱 Tablet (768px+)
-- 🖥️ Desktop (1920px+)
-
-## 🎨 Customização
-
-### Cores
-
-As cores estão definidas no `tailwind.config.ts` e usam a paleta de cores padrão do Tailwind. Para customizar:
-
-1. Edite `tailwind.config.ts`
-2. Atualize as referências de cores nos componentes
-
-### Fonts
-
-As fonts padrão são `Geist` e `Geist Mono` (configuradas em `src/app/layout.tsx`). Para mudar:
-
-1. Importe uma nova font do Google Fonts
-2. Atualize a variável CSS no layout
-
-## 🚀 Performance
-
-- ✅ Next.js com App Router otimizado
-- ✅ CSS-in-JS com Tailwind (sem JavaScript desnecessário)
-- ✅ Imagens otimizadas
-- ✅ Sem dependências externas pesadas
-
-## 📜 Licença
-
-MIT
-
-## 👤 Autor
-
-**Rafael Carlos Silverio**
-
-- Email: [rafacarlossilver@yahoo.com.br](mailto:rafacarlossilver@yahoo.com.br)
-- LinkedIn: [@rafael-carlos-developer](https://www.linkedin.com/in/rafael-carlos-developer/)
-- GitHub: [@rafacarlossilver](https://github.com/rafacarlossilver)
+Aqui está o seu currículo convertido para **Markdown (.md)**, mantendo a estrutura, hierarquia e conteúdo do documento original.  
+Use como quiser no GitHub, portfólio ou documentação.
 
 ---
 
-**Desenvolvido com ❤️ usando Next.js, React e Tailwind CSS**
+# **Rafael Carlos Silverio**
+
+**Arquiteto de Soluções Senior**  
+MBA em Tecnologia para Negócios: AWS, AI, Data Science e Big Data  
+São Paulo, SP – Brasil  
+
+---
+
+## **📞 Contato**
+
+- **Email:** rafacarlossilver@yahoo.com.br  
+- **LinkedIn:** `https://www.linkedin.com/in/rafael-carlos-developer` [(linkedin.com in Bing)](https://www.bing.com/search?q="https%3A%2F%2Fwww.linkedin.com%2Fin%2Frafael-carlos-developer")  
+- **Portfólio:** `https://rafacarlossilver.github.io/` [(rafacarlossilver.github.io in Bing)](https://www.bing.com/search?q="https%3A%2F%2Frafacarlossilver.github.io%2F")
+
+---
+
+## **🧠 Principais Competências**
+
+- IA Generativa  
+- Amazon Web Services  
+- Python  
+
+---
+
+## **🌍 Idiomas**
+
+- **Inglês:** Professional Working  
+- **Espanhol:** Limited Working  
+- **Português:** Native or Bilingual  
+
+---
+
+## **🎓 Certificações**
+
+- Business Intelligence: Introdução à Inteligência Empresarial  
+- Big Data: Processamento de dados com Spark e PySpark  
+- JQuery – Javascript Framework  
+- Articulate 360  
+- PHPUnit com exemplos de TDD  
+
+---
+
+## **📝 Resumo**
+
+Arquiteto de Dados e Soluções AWS | Especialista em Arquitetura de Soluções 3.0 | Data-Driven Problem Solver.
+
+Com mais de 15 anos de experiência em arquitetura de dados, cloud computing e desenvolvimento de sistemas escaláveis, ajudo empresas a transformar dados em decisões estratégicas e soluções tecnológicas de alto impacto.
+
+Atualmente, atuo como **Arquiteto de Soluções AWS no Banco Itaú**, projetando soluções eficientes, escaláveis e sustentáveis, alinhadas aos princípios da Arquitetura de Soluções 3.0, com foco em governança, segurança, compliance e performance.
+
+### **Competências Técnicas e Projetos**
+
+- **Cloud & Data Engineering:** AWS Step Functions, Airflow, Athena, Redshift, Glue Job, PySpark  
+- **Machine Learning:** AWS SageMaker  
+- **ETL & Data Pipelines:** Pentaho 8, AWS Glue  
+- **Data Visualization:** Power BI  
+- **Automação & RPA:** desenvolvimento de robôs para redução de custos  
+- **Análise Exploratória:** Python, Pandas, Jupyter Notebook  
+
+Missão profissional: conectar estratégia de negócio, arquitetura de dados e tecnologias cloud para gerar valor tangível e sustentável.
+
+---
+
+## **💼 Experiência Profissional**
+
+### **Itaú Unibanco**  
+**Arquiteto de Soluções Senior**  
+*Nov 2022 – Presente | São Paulo, Brasil*
+
+- Arquitetura de soluções AWS alinhadas à Arquitetura de Soluções 3.0  
+- Criação de documentação técnica para integração entre times  
+- Atuação colaborativa com foco em governança, segurança e compliance  
+- Desenvolvimento de soluções escaláveis e sustentáveis  
+
+---
+
+### **GRUPO NC**  
+**Systems Specialist – Data Architect**  
+*Mar 2022 – Out 2022 | Hortolândia, SP*
+
+- Implementação de pipelines com AWS Step Functions, Airflow, Athena e Redshift  
+- Desenvolvimento de modelos de Machine Learning com SageMaker  
+- ETL corporativo com AWS Glue + PySpark  
+- Análise exploratória com Python e Jupyter  
+- Criação de imagens Docker  
+
+---
+
+### **Globant**  
+**Data Architect, SSr**  
+*Ago 2021 – Fev 2022 | São Paulo, Brasil*
+
+- ETL com AWS Glue  
+- Processamento de dados com PySpark  
+- Criação de funções Lambda  
+- Desenvolvimento de modelos de Machine Learning  
+- Criação de zonas de consumo de dados  
+
+---
+
+### **Allink Neutral Provider**  
+**Analista e Desenvolvedor**  
+*Fev 2012 – Ago 2021 | São Paulo, Brasil*
+
+- Implementação de chatbot  
+- Desenvolvimento e manutenção do ERP corporativo  
+- Integração Sugar CRM + ERP interno  
+- Desenvolvimento com PHP OOP, Javascript (jQuery), MySQL  
+- Experiência com frameworks: CodeIgniter, Slim, Zend, Symfony  
+- Análise de dados com Python  
+- Administração de servidores Linux e Apache  
+- Virtualização de servidores e desktops  
+- ETL com Pentaho 8  
+- Implementação de dashboards Power BI  
+
+---
+
+### **Accelera Technologies**  
+**Analista e Desenvolvedor de Aplicações Web**  
+*Jul 2011 – Fev 2012*
+
+- Documentação de sistemas  
+- Técnicas UML  
+- Desenvolvimento web com SharePoint  
+- Criação de aplicativos em C#  
+
+---
+
+### **APAMAGIS – Associação Paulista de Magistrados**  
+**Computer Assistant Level 2**  
+*Dez 2009 – Jul 2011*
+
+- Desenvolvimento em PHP  
+- Edição de vídeos (Adobe Premiere)  
+- Design gráfico (Corel Draw, Photoshop)  
+- Suporte técnico interno  
+- Acompanhamento de cursos EAD  
+
+---
+
+## **🎓 Formação Acadêmica**
+
+### **PUC-RS – Pontifícia Universidade Católica do Rio Grande do Sul**  
+**MBA em Technology for Business: AI, Data Science and Big Data**  
+*2020 – 2021*
+
+### **Universidade Estácio de Sá**  
+**Bacharelado em Análise de Sistemas**  
+*2007 – 2009*
+
