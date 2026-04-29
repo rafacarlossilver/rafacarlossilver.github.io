@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Rafael Carlos Silverio - Solutions & Data Architect. Especialista em AWS, AI, Data Engineering e Cloud Architecture com 15+ anos de experiência.">
+    <meta name="keywords" content="Solutions Architect, Data Architect, AWS, AI, Data Engineering, Cloud, Python, Machine Learning">
+    <meta name="author" content="Rafael Carlos Silverio">
+    <meta name="theme-color" content="#0f172a">
+    
+    <!-- OpenGraph Meta Tags -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://rafacarlossilver.github.io/">
+    <meta property="og:title" content="Rafael Carlos Silverio - Solutions & Data Architect">
+    <meta property="og:description" content="Arquiteto de Soluções Senior com expertise em AWS, AI, Data Engineering e Cloud Architecture. 15+ anos transformando dados em decisões estratégicas.">
+    <meta property="og:image" content="https://rafacarlossilver.github.io/og-image.png">
+    <meta property="og:locale" content="pt_BR">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Rafael Carlos Silverio - Solutions & Data Architect">
+    <meta name="twitter:description" content="Arquiteto de Soluções Senior com 15+ anos em AWS, AI, Data Engineering e Cloud Architecture.">
+    
+    <!-- JSON-LD Schema.org -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org/",
+        "@type": "Person",
+        "name": "Rafael Carlos Silverio",
+        "url": "https://rafacarlossilver.github.io/",
+        "email": "rafacarlossilver@yahoo.com.br",
+        "sameAs": [
+            "https://www.linkedin.com/in/rafael-carlos-developer",
+            "https://github.com/rafacarlossilver"
+        ],
+        "jobTitle": "Solutions & Data Architect",
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Itaú Unibanco"
+        },
+        "alumniOf": {
+            "@type": "EducationalOrganization",
+            "name": "PUC-RS"
+        },
+        "knowsAbout": [
+            "AWS",
+            "Data Engineering",
+            "Machine Learning",
+            "Cloud Architecture",
+            "Python",
+            "Data Analytics",
+            "Business Intelligence"
+        ]
+    }
+    </script>
+
+    <title>Rafael Carlos Silverio - Solutions & Data Architect</title>
+    
+    <!-- Tailwind CSS via CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography"></script>
+    
+    <!-- Google Fonts - Inter & Geist Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Geist:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <style>
+        :root {
+            --color-bg-dark: #0f172a;
+            --color-bg-card: #1e293b;
+            --color-border: #334155;
+            --color-text-primary: #f1f5f9;
+            --color-text-secondary: #cbd5e1;
+            --color-accent: #3b82f6;
+            --color-accent-light: #60a5fa;
+        }
+
+        * {
+            font-family: 'Inter', 'Geist', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+        }
+
+        html {
+            scroll-behavior: smooth;
+            scroll-padding-top: 80px;
+        }
+
+        body {
+            background-color: var(--color-bg-dark);
+            color: var(--color-text-primary);
+            line-height: 1.6;
+        }
+
+        /* Tailwind text-wrap: balance para títulos */
+        h1, h2, h3 {
+            text-wrap: balance;
+        }
+
+        /* Scrollbar estilizado */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: var(--color-bg-dark);
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: var(--color-border);
+            border-radius: 4px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: var(--color-accent);
+        }
+
+        /* Smooth transitions */
+        a, button {
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        /* Card hover effect */
+        .card-hover {
+            transition: all 0.3s ease;
+        }
+
+        .card-hover:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 20px 25px -5px rgba(59, 130, 246, 0.1);
+            border-color: var(--color-accent-light);
+        }
+
+        /* Gradient text */
+        .gradient-text {
+            background: linear-gradient(135deg, #3b82f6 0%, #60a5fa 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        /* Badge styles */
+        .badge {
+            display: inline-block;
+            padding: 0.375rem 0.75rem;
+            background-color: rgba(59, 130, 246, 0.1);
+            border: 1px solid rgba(59, 130, 246, 0.3);
+            border-radius: 0.375rem;
+            font-size: 0.875rem;
+            color: var(--color-accent-light);
+            font-weight: 500;
+        }
+
+        /* Focus visible for accessibility */
+        a:focus-visible, button:focus-visible {
+            outline: 2px solid var(--color-accent);
+            outline-offset: 2px;
+        }
+
+        /* Accessible skip link */
+        .skip-link {
+            position: absolute;
+            top: -40px;
+            left: 0;
+            background: var(--color-accent);
+            color: white;
+            padding: 8px;
+            text-decoration: none;
+        }
+
+        .skip-link:focus {
+            top: 0;
+        }
+
+        /* Animation */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .fade-in-up {
+            animation: fadeInUp 0.6s ease-out;
+        }
+
+        .stagger-item {
+            animation: fadeInUp 0.6s ease-out backwards;
+        }
+
+        .stagger-item:nth-child(1) { animation-delay: 0.1s; }
+        .stagger-item:nth-child(2) { animation-delay: 0.2s; }
+        .stagger-item:nth-child(3) { animation-delay: 0.3s; }
+        .stagger-item:nth-child(4) { animation-delay: 0.4s; }
+        .stagger-item:nth-child(5) { animation-delay: 0.5s; }
+        .stagger-item:nth-child(6) { animation-delay: 0.6s; }
+
+        /* Sticky nav shadow */
+        nav.sticky {
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+        }
+    </style>
+</head>
+<body class="antialiased">
+    <!-- Skip Link para Acessibilidade -->
+    <a href="#main-content" class="skip-link">Ir para conteúdo principal</a>
+
+    <!-- Sticky Navigation -->
+    <nav id="navbar" class="sticky top-0 z-50 bg-slate-950 border-b border-slate-800 transition-shadow duration-300" role="navigation" aria-label="Navegação principal">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
+            <a href="#home" class="text-xl font-bold gradient-text hover:opacity-80" aria-label="Rafael Carlos Silverio - Home">RCS</a>
+            
+            <button id="mobile-menu-btn" class="lg:hidden p-2 hover:bg-slate-800 rounded-lg" aria-label="Menu móvel" aria-expanded="false" aria-controls="nav-menu">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                </svg>
+            </button>
+
+            <div id="nav-menu" class="hidden lg:flex gap-8">
+                <a href="#about" class="text-slate-300 hover:text-blue-400 font-medium">Sobre</a>
+                <a href="#skills" class="text-slate-300 hover:text-blue-400 font-medium">Habilidades</a>
+                <a href="#experience" class="text-slate-300 hover:text-blue-400 font-medium">Experiência</a>
+                <a href="#contact" class="text-slate-300 hover:text-blue-400 font-medium">Contato</a>
+            </div>
+        </div>
+    </nav>
+
+    <main id="main-content">
+        <!-- Hero Section -->
+        <section id="home" class="relative min-h-screen flex items-center justify-center pt-20 pb-32 px-4 sm:px-6 lg:px-8 overflow-hidden">
+            <!-- Background gradient decoration -->
+            <div class="absolute inset-0 -z-10 overflow-hidden">
+                <div class="absolute top-0 -left-4 w-72 h-72 bg-blue-500 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-pulse"></div>
+                <div class="absolute top-0 -right-4 w-72 h-72 bg-purple-500 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-pulse animation-delay-2000"></div>
+            </div>
+
+            <div class="max-w-4xl mx-auto text-center">
+                <h1 class="text-5xl sm:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
+                    <span class="text-slate-50">Rafael Carlos</span>
+                    <br>
+                    <span class="gradient-text">Silverio</span>
+                </h1>
+                
+                <p class="text-2xl sm:text-3xl font-semibold text-slate-300 mb-6">
+                    Solutions & Data Architect
+                </p>
+
+                <p class="text-lg text-slate-400 max-w-2xl mx-auto mb-8 leading-relaxed">
+                    Transformo dados complexos em arquiteturas escaláveis. Com 15+ anos de expertise em AWS, 
+                    AI e Cloud Engineering, ajudo empresas a construir soluções que redefinem seu futuro tecnológico.
+                </p>
+
+                <div class="flex flex-col sm:flex-row gap-4 justify-center mb-12">
+                    <a href="#contact" class="px-8 py-4 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-lg transition-all duration-300 transform hover:scale-105" aria-label="Começar projeto">
+                        Iniciar Conversa →
+                    </a>
+                    <a href="https://www.linkedin.com/in/rafael-carlos-developer" target="_blank" rel="noopener noreferrer" class="px-8 py-4 border border-slate-600 hover:border-blue-400 text-slate-300 hover:text-blue-400 font-semibold rounded-lg transition-all duration-300" aria-label="Visitar LinkedIn">
+                        LinkedIn
+                    </a>
+                </div>
+
+                <!-- Stats -->
+                <div class="grid grid-cols-2 sm:grid-cols-3 gap-8 mt-16">
+                    <div>
+                        <p class="text-3xl font-bold gradient-text">15+</p>
+                        <p class="text-slate-400 mt-2">Anos de Experiência</p>
+                    </div>
+                    <div>
+                        <p class="text-3xl font-bold gradient-text">50+</p>
+                        <p class="text-slate-400 mt-2">Projetos Entregues</p>
+                    </div>
+                    <div>
+                        <p class="text-3xl font-bold gradient-text">5</p>
+                        <p class="text-slate-400 mt-2">Certificações</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="py-20 px-4 sm:px-6 lg:px-8 bg-slate-900/50 border-t border-slate-800">
+            <div class="max-w-4xl mx-auto">
+                <h2 class="text-4xl font-bold mb-12 text-center">Proposta de Valor</h2>
+                
+                <div class="grid md:grid-cols-2 gap-12">
+                    <div class="space-y-6">
+                        <div>
+                            <h3 class="text-xl font-semibold text-blue-400 mb-3">🎯 Especialização</h3>
+                            <p class="text-slate-400">
+                                Arquiteto de Soluções especializado em transformar desafios empresariais complexos em arquiteturas cloud escaláveis, 
+                                alinhadas à Arquitetura de Soluções 3.0 com foco em governança, segurança e compliance.
+                            </p>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-semibold text-blue-400 mb-3">⚡ Impacto</h3>
+                            <p class="text-slate-400">
+                                Reduzo custos operacionais, melhoro performance de pipelines de dados e automatizo processos críticos 
+                                através de soluções AWS inovadoras e arquitetura orientada por dados.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="space-y-6">
+                        <div>
+                            <h3 class="text-xl font-semibold text-blue-400 mb-3">🚀 Experiência</h3>
+                            <p class="text-slate-400">
+                                Da startup ao Banco Itaú: experiência comprovada em diferentes contextos, desde RPA e ETL corporativo 
+                                até Machine Learning em escala, sempre gerando valor tangível e sustentável.
+                            </p>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-semibold text-blue-400 mb-3">🔗 Diferencial</h3>
+                            <p class="text-slate-400">
+                                Conecto estratégia de negócio, dados e tecnologia. Não apenas técnico, mas um comunicador que traduz 
+                                complexidade em decisões claras para stakeholders de todos os níveis.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills - Bento Grid Section -->
+        <section id="skills" class="py-20 px-4 sm:px-6 lg:px-8">
+            <div class="max-w-6xl mx-auto">
+                <h2 class="text-4xl font-bold mb-16 text-center">Habilidades & Expertise</h2>
+
+                <!-- Bento Grid -->
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 auto-rows-max">
+                    <!-- AI & Machine Learning -->
+                    <div class="card-hover lg:col-span-1 lg:row-span-2 p-8 rounded-xl border border-slate-800 bg-slate-900/50 hover:bg-slate-900">
+                        <div class="flex items-start justify-between mb-4">
+                            <h3 class="text-xl font-bold text-blue-400">AI & ML</h3>
+                            <svg class="w-8 h-8 text-blue-400 opacity-50" stroke="currentColor" fill="none" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+                            </svg>
+                        </div>
+                        <p class="text-slate-400 mb-6 text-sm">Modelos de Machine Learning, AI Generativa e Data Science</p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="badge">SageMaker</span>
+                            <span class="badge">Python</span>
+                            <span class="badge">Pandas</span>
+                            <span class="badge">Jupyter</span>
+                            <span class="badge">IA Generativa</span>
+                        </div>
+                    </div>
+
+                    <!-- Cloud Architecture -->
+                    <div class="card-hover p-8 rounded-xl border border-slate-800 bg-slate-900/50 hover:bg-slate-900">
+                        <h3 class="text-xl font-bold text-blue-400 mb-4">☁️ Cloud AWS</h3>
+                        <p class="text-slate-400 text-sm mb-6">Arquitetura e otimização de infraestrutura em cloud</p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="badge">EC2</span>
+                            <span class="badge">S3</span>
+                            <span class="badge">Lambda</span>
+                        </div>
+                    </div>
+
+                    <!-- Data Engineering -->
+                    <div class="card-hover p-8 rounded-xl border border-slate-800 bg-slate-900/50 hover:bg-slate-900">
+                        <h3 class="text-xl font-bold text-blue-400 mb-4">📊 Data Engineering</h3>
+                        <p class="text-slate-400 text-sm mb-6">Pipelines escaláveis e processamento de dados</p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="badge">Airflow</span>
+                            <span class="badge">PySpark</span>
+                            <span class="badge">Glue</span>
+                        </div>
+                    </div>
+
+                    <!-- Data & Analytics -->
+                    <div class="card-hover lg:col-span-1 lg:row-span-2 p-8 rounded-xl border border-slate-800 bg-slate-900/50 hover:bg-slate-900">
+                        <div class="flex items-start justify-between mb-4">
+                            <h3 class="text-xl font-bold text-blue-400">📈 Analytics</h3>
+                            <svg class="w-8 h-8 text-blue-400 opacity-50" stroke="currentColor" fill="none" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path>
+                            </svg>
+                        </div>
+                        <p class="text-slate-400 mb-6 text-sm">BI, exploração de dados e visualizações</p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="badge">Power BI</span>
+                            <span class="badge">Athena</span>
+                            <span class="badge">Redshift</span>
+                            <span class="badge">Análise</span>
+                        </div>
+                    </div>
+
+                    <!-- DevOps & Infraestrutura -->
+                    <div class="card-hover p-8 rounded-xl border border-slate-800 bg-slate-900/50 hover:bg-slate-900">
+                        <h3 class="text-xl font-bold text-blue-400 mb-4">⚙️ DevOps</h3>
+                        <p class="text-slate-400 text-sm mb-6">Containerização e automação de infraestrutura</p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="badge">Docker</span>
+                            <span class="badge">Linux</span>
+                            <span class="badge">Step Functions</span>
+                        </div>
+                    </div>
+
+                    <!-- Backend & Integração -->
+                    <div class="card-hover lg:col-span-2 p-8 rounded-xl border border-slate-800 bg-slate-900/50 hover:bg-slate-900">
+                        <h3 class="text-xl font-bold text-blue-400 mb-4">🔧 Backend & Integração</h3>
+                        <p class="text-slate-400 text-sm mb-6">Desenvolvimento full-stack com foco em integração e automação</p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="badge">Python</span>
+                            <span class="badge">PHP OOP</span>
+                            <span class="badge">JavaScript</span>
+                            <span class="badge">Pentaho ETL</span>
+                            <span class="badge">RPA</span>
+                            <span class="badge">MySQL</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="py-20 px-4 sm:px-6 lg:px-8 bg-slate-900/50 border-t border-slate-800">
+            <div class="max-w-5xl mx-auto">
+                <h2 class="text-4xl font-bold mb-16 text-center">Experiência Profissional</h2>
+
+                <!-- Timeline -->
+                <div class="space-y-8">
+                    <!-- Job 1 -->
+                    <div class="card-hover p-8 rounded-xl border border-slate-800 bg-slate-900 hover:bg-slate-800">
+                        <div class="flex flex-col md:flex-row md:items-start md:justify-between mb-4">
+                            <div>
+                                <h3 class="text-2xl font-bold text-blue-400">Arquiteto de Soluções Senior</h3>
+                                <p class="text-slate-400 mt-2">Itaú Unibanco • São Paulo, SP</p>
+                            </div>
+                            <span class="text-slate-500 mt-2 md:mt-0 text-sm font-medium">Nov 2022 - Presente</span>
+                        </div>
+                        <p class="text-slate-400 mb-4">
+                            Liderança de arquitetura de soluções AWS alinhadas à Arquitetura de Soluções 3.0, com foco em governança, 
+                            segurança e compliance. Documentação técnica para integração entre times e desenvolvimento de soluções escaláveis.
+                        </p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="badge">AWS</span>
+                            <span class="badge">Arquitetura</span>
+                            <span class="badge">Governança</span>
+                            <span class="badge">Compliance</span>
+                        </div>
+                    </div>
+
+                    <!-- Job 2 -->
+                    <div class="card-hover p-8 rounded-xl border border-slate-800 bg-slate-900 hover:bg-slate-800">
+                        <div class="flex flex-col md:flex-row md:items-start md:justify-between mb-4">
+                            <div>
+                                <h3 class="text-2xl font-bold text-blue-400">Systems Specialist – Data Architect</h3>
+                                <p class="text-slate-400 mt-2">GRUPO NC • Hortolândia, SP</p>
+                            </div>
+                            <span class="text-slate-500 mt-2 md:mt-0 text-sm font-medium">Mar 2022 - Out 2022</span>
+                        </div>
+                        <p class="text-slate-400 mb-4">
+                            Implementação de pipelines com AWS Step Functions, Airflow, Athena e Redshift. Desenvolvimento de modelos ML 
+                            com SageMaker, ETL corporativo com AWS Glue + PySpark e análise exploratória com Python.
+                        </p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="badge">Step Functions</span>
+                            <span class="badge">Airflow</span>
+                            <span class="badge">PySpark</span>
+                            <span class="badge">SageMaker</span>
+                            <span class="badge">Docker</span>
+                        </div>
+                    </div>
+
+                    <!-- Job 3 -->
+                    <div class="card-hover p-8 rounded-xl border border-slate-800 bg-slate-900 hover:bg-slate-800">
+                        <div class="flex flex-col md:flex-row md:items-start md:justify-between mb-4">
+                            <div>
+                                <h3 class="text-2xl font-bold text-blue-400">Data Architect, SSr</h3>
+                                <p class="text-slate-400 mt-2">Globant • São Paulo, Brasil</p>
+                            </div>
+                            <span class="text-slate-500 mt-2 md:mt-0 text-sm font-medium">Ago 2021 - Fev 2022</span>
+                        </div>
+                        <p class="text-slate-400 mb-4">
+                            ETL com AWS Glue, processamento de dados com PySpark, criação de funções Lambda e desenvolvimento de 
+                            modelos de Machine Learning. Criação de zonas de consumo de dados.
+                        </p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="badge">AWS Glue</span>
+                            <span class="badge">PySpark</span>
+                            <span class="badge">Lambda</span>
+                            <span class="badge">ML</span>
+                        </div>
+                    </div>
+
+                    <!-- Job 4 -->
+                    <div class="card-hover p-8 rounded-xl border border-slate-800 bg-slate-900 hover:bg-slate-800">
+                        <div class="flex flex-col md:flex-row md:items-start md:justify-between mb-4">
+                            <div>
+                                <h3 class="text-2xl font-bold text-blue-400">Analista e Desenvolvedor</h3>
+                                <p class="text-slate-400 mt-2">Allink Neutral Provider • São Paulo, Brasil</p>
+                            </div>
+                            <span class="text-slate-500 mt-2 md:mt-0 text-sm font-medium">Fev 2012 - Ago 2021</span>
+                        </div>
+                        <p class="text-slate-400 mb-4">
+                            Desenvolvimento full-stack com PHP OOP, JavaScript (jQuery), MySQL. Experiência com frameworks como CodeIgniter, 
+                            Slim, Zend e Symfony. ETL com Pentaho 8, dashboards Power BI e implementação de chatbots.
+                        </p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="badge">PHP OOP</span>
+                            <span class="badge">JavaScript</span>
+                            <span class="badge">MySQL</span>
+                            <span class="badge">Pentaho</span>
+                            <span class="badge">Power BI</span>
+                            <span class="badge">RPA</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education & Certifications -->
+        <section class="py-20 px-4 sm:px-6 lg:px-8">
+            <div class="max-w-5xl mx-auto">
+                <h2 class="text-4xl font-bold mb-16 text-center">Formação & Certificações</h2>
+
+                <div class="grid md:grid-cols-2 gap-8">
+                    <!-- Education -->
+                    <div>
+                        <h3 class="text-2xl font-bold text-blue-400 mb-8">🎓 Educação</h3>
+                        <div class="space-y-6">
+                            <div class="p-6 rounded-lg border border-slate-800 bg-slate-900/50 hover:bg-slate-900 transition-colors">
+                                <h4 class="font-bold text-lg text-slate-100">MBA em Technology for Business</h4>
+                                <p class="text-slate-400 mt-2">AI, Data Science and Big Data</p>
+                                <p class="text-sm text-slate-500 mt-3">PUC-RS • 2020 - 2021</p>
+                            </div>
+                            <div class="p-6 rounded-lg border border-slate-800 bg-slate-900/50 hover:bg-slate-900 transition-colors">
+                                <h4 class="font-bold text-lg text-slate-100">Bacharelado em Análise de Sistemas</h4>
+                                <p class="text-slate-400 mt-2">Universidade Estácio de Sá</p>
+                                <p class="text-sm text-slate-500 mt-3">2007 - 2009</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Certifications -->
+                    <div>
+                        <h3 class="text-2xl font-bold text-blue-400 mb-8">✅ Certificações</h3>
+                        <div class="space-y-3">
+                            <div class="p-3 rounded-lg bg-slate-900/50 border-l-2 border-blue-400">
+                                <p class="font-semibold text-slate-100">Business Intelligence: Introdução à Inteligência Empresarial</p>
+                            </div>
+                            <div class="p-3 rounded-lg bg-slate-900/50 border-l-2 border-blue-400">
+                                <p class="font-semibold text-slate-100">Big Data: Processamento de dados com Spark e PySpark</p>
+                            </div>
+                            <div class="p-3 rounded-lg bg-slate-900/50 border-l-2 border-blue-400">
+                                <p class="font-semibold text-slate-100">JQuery – Javascript Framework</p>
+                            </div>
+                            <div class="p-3 rounded-lg bg-slate-900/50 border-l-2 border-blue-400">
+                                <p class="font-semibold text-slate-100">Articulate 360</p>
+                            </div>
+                            <div class="p-3 rounded-lg bg-slate-900/50 border-l-2 border-blue-400">
+                                <p class="font-semibold text-slate-100">PHPUnit com exemplos de TDD</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Languages Section -->
+        <section class="py-20 px-4 sm:px-6 lg:px-8 bg-slate-900/50 border-t border-slate-800">
+            <div class="max-w-5xl mx-auto">
+                <h2 class="text-4xl font-bold mb-16 text-center">Idiomas</h2>
+
+                <div class="grid md:grid-cols-3 gap-6">
+                    <div class="p-8 rounded-xl border border-slate-800 bg-slate-900 text-center hover:border-blue-400 transition-colors">
+                        <p class="text-2xl font-bold text-slate-100 mb-2">🇧🇷 Português</p>
+                        <p class="text-slate-400">Native or Bilingual</p>
+                        <div class="mt-4 h-2 bg-slate-700 rounded-full overflow-hidden">
+                            <div class="h-full bg-blue-500 w-full"></div>
+                        </div>
+                    </div>
+                    <div class="p-8 rounded-xl border border-slate-800 bg-slate-900 text-center hover:border-blue-400 transition-colors">
+                        <p class="text-2xl font-bold text-slate-100 mb-2">🇺🇸 English</p>
+                        <p class="text-slate-400">Professional Working</p>
+                        <div class="mt-4 h-2 bg-slate-700 rounded-full overflow-hidden">
+                            <div class="h-full bg-blue-500 w-4/5"></div>
+                        </div>
+                    </div>
+                    <div class="p-8 rounded-xl border border-slate-800 bg-slate-900 text-center hover:border-blue-400 transition-colors">
+                        <p class="text-2xl font-bold text-slate-100 mb-2">🇪🇸 Spanish</p>
+                        <p class="text-slate-400">Limited Working</p>
+                        <div class="mt-4 h-2 bg-slate-700 rounded-full overflow-hidden">
+                            <div class="h-full bg-blue-500 w-2/5"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="py-20 px-4 sm:px-6 lg:px-8">
+            <div class="max-w-3xl mx-auto">
+                <h2 class="text-4xl font-bold mb-12 text-center">Vamos Conectar</h2>
+
+                <p class="text-center text-slate-400 mb-12 text-lg max-w-xl mx-auto">
+                    Tenho interesse em conversas sobre arquitetura de soluções, projetos de dados ou oportunidades de colaboração. 
+                    Sinta-se livre para entrar em contato!
+                </p>
+
+                <div class="grid md:grid-cols-2 gap-6 mb-12">
+                    <!-- Email Card -->
+                    <a href="mailto:rafacarlossilver@yahoo.com.br" class="card-hover p-8 rounded-xl border border-slate-800 bg-slate-900/50 hover:bg-slate-900 group">
+                        <div class="flex items-center gap-4 mb-4">
+                            <div class="w-12 h-12 rounded-lg bg-blue-500/20 flex items-center justify-center group-hover:bg-blue-500/40 transition-colors">
+                                <svg class="w-6 h-6 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+                                </svg>
+                            </div>
+                            <h3 class="text-xl font-bold text-slate-100">Email</h3>
+                        </div>
+                        <p class="text-slate-400">rafacarlossilver@yahoo.com.br</p>
+                        <p class="text-sm text-slate-500 mt-2">Responderei em até 24 horas</p>
+                    </a>
+
+                    <!-- LinkedIn Card -->
+                    <a href="https://www.linkedin.com/in/rafael-carlos-developer" target="_blank" rel="noopener noreferrer" class="card-hover p-8 rounded-xl border border-slate-800 bg-slate-900/50 hover:bg-slate-900 group">
+                        <div class="flex items-center gap-4 mb-4">
+                            <div class="w-12 h-12 rounded-lg bg-blue-500/20 flex items-center justify-center group-hover:bg-blue-500/40 transition-colors">
+                                <svg class="w-6 h-6 text-blue-400" fill="currentColor" viewBox="0 0 24 24">
+                                    <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                                </svg>
+                            </div>
+                            <h3 class="text-xl font-bold text-slate-100">LinkedIn</h3>
+                        </div>
+                        <p class="text-slate-400">rafael-carlos-developer</p>
+                        <p class="text-sm text-slate-500 mt-2">Conecte-se para atualizações profissionais</p>
+                    </a>
+                </div>
+
+                <!-- Call to Action -->
+                <div class="p-8 rounded-xl border border-blue-500/50 bg-blue-500/10 text-center">
+                    <h3 class="text-2xl font-bold text-slate-100 mb-4">Pronto para trabalhar junto?</h3>
+                    <p class="text-slate-400 mb-6">
+                        Vamos explorar como posso agregar valor ao seu projeto ou organização.
+                    </p>
+                    <a href="mailto:rafacarlossilver@yahoo.com.br" class="inline-block px-8 py-3 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-lg transition-all duration-300 transform hover:scale-105">
+                        Enviar Mensagem Agora ✉️
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="border-t border-slate-800 bg-slate-950 py-12 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-6xl mx-auto">
+            <div class="grid md:grid-cols-3 gap-12 mb-8">
+                <div>
+                    <p class="text-xl font-bold gradient-text mb-2">RCS</p>
+                    <p class="text-slate-400 text-sm">Solutions & Data Architect</p>
+                </div>
+                <div>
+                    <h4 class="font-semibold text-slate-100 mb-4">Links Rápidos</h4>
+                    <ul class="space-y-2 text-sm text-slate-400">
+                        <li><a href="#about" class="hover:text-blue-400 transition">Sobre</a></li>
+                        <li><a href="#skills" class="hover:text-blue-400 transition">Habilidades</a></li>
+                        <li><a href="#experience" class="hover:text-blue-400 transition">Experiência</a></li>
+                        <li><a href="#contact" class="hover:text-blue-400 transition">Contato</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-semibold text-slate-100 mb-4">Conecte-se</h4>
+                    <ul class="space-y-2 text-sm text-slate-400">
+                        <li><a href="https://www.linkedin.com/in/rafael-carlos-developer" target="_blank" rel="noopener noreferrer" class="hover:text-blue-400 transition">LinkedIn</a></li>
+                        <li><a href="mailto:rafacarlossilver@yahoo.com.br" class="hover:text-blue-400 transition">Email</a></li>
+                        <li><a href="https://github.com/rafacarlossilver" target="_blank" rel="noopener noreferrer" class="hover:text-blue-400 transition">GitHub</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="border-t border-slate-800 pt-8">
+                <div class="flex flex-col md:flex-row justify-between items-center">
+                    <p class="text-slate-500 text-sm">
+                        © 2026 Rafael Carlos Silverio. Todos os direitos reservados.
+                    </p>
+                    <p class="text-slate-500 text-sm mt-4 md:mt-0">
+                        Desenvolvido com ❤️ • <span class="text-blue-400">Design 2026</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Mobile Menu Handler -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+            const navMenu = document.getElementById('nav-menu');
+            const navLinks = navMenu.querySelectorAll('a');
+            const navbar = document.getElementById('navbar');
+
+            // Toggle mobile menu
+            mobileMenuBtn.addEventListener('click', function() {
+                const isOpen = navMenu.classList.toggle('hidden');
+                mobileMenuBtn.setAttribute('aria-expanded', !isOpen);
+            });
+
+            // Close menu when link is clicked
+            navLinks.forEach(link => {
+                link.addEventListener('click', function() {
+                    navMenu.classList.add('hidden');
+                    mobileMenuBtn.setAttribute('aria-expanded', false);
+                });
+            });
+
+            // Add shadow to navbar on scroll
+            window.addEventListener('scroll', function() {
+                if (window.scrollY > 10) {
+                    navbar.classList.add('shadow-lg');
+                } else {
+                    navbar.classList.remove('shadow-lg');
+                }
+            });
+
+            // Initialize Lucide Icons
+            if (typeof lucide !== 'undefined') {
+                lucide.createIcons();
+            }
+        });
+
+        // Smooth scroll behavior already set in CSS
+        // This ensures keyboard navigation works properly
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({ behavior: 'smooth' });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
